@@ -1,7 +1,7 @@
 ---
-- hosts: linux
+- hosts: all
   tasks:
   - name: create file
     file:
-     path: /home/ansible/testfile
+     path: /home/ansible/testfile1
      state: touch
