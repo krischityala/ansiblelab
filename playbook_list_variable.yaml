@@ -1,0 +1,12 @@
+---
+- hosts: all
+  vars:
+    games:
+      - cricket
+      - football
+      - baseball
+      - trackevents
+  tasks:
+  - name: print list variable
+    debug: 
+      msg: "{{ games [1] }}"
