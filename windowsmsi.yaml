@@ -1,5 +1,5 @@
 ---
-- hosts: win
+- hosts: all
   tasks:
   - name: download apache
     win_get_url:
