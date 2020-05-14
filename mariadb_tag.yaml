@@ -1,5 +1,5 @@
 ---
-- hosts: 18.205.244.21 
+- hosts: centos
   become: yes
   tasks:
   - name: install mariadb-server
